@@ -2,7 +2,8 @@ import React, { useReducer } from "react";
 import axios from "axios";
 
 export const productsContext = React.createContext();
-const API = "http://localhost:8000/data";
+// const API = "http://localhost:8000/data";
+const API = " https://makers-deploy-emir.herokuapp.com/"
 const INIT_STATE = {
   products: [],
   oneProduct: null,
